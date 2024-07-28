@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax effect</title>
+    <link rel="stylesheet" HREF="style.css">
+    
+</head>
+<style>
+    h1{
+     position:absolute;
+     top:5rem;
+     color: white;
+     font-size: 10rem;
+     text-shadow:0 0 10px rgba(0,0,0,0.3);
+     text-transform: uppercase;
+    }
+ 
+    section{
+     transform-style:preserve-3d;
+     z-index: index 0;
+     background-color: rgb(45,45,45);
+     color:white;
+     padding:5 rem;
+ }
+ 
+ .bg1{
+     background-image: url(sport-1.jpg);
+ }
+ .bg2{
+     background-image: url(sport-2.jpg);
+ }
+ .bg3{
+     background-image: url(sport-3.jpg);
+ }
+ 
+ .secheading{
+     
+     font-size:5rem;
+     padding:1.5rem 10rem;
+ }
+ 
+ .text{
+     font-size:1.5rem;
+     padding:0 10rem;
+     margin:5rem 0;
+ }
+ 
+ .bg{
+     position:relative;
+     width:100%;
+     background-attachment:fixed;
+     background-size:cover;
+     height:500px;
+ }
+ 
+ .desc{
+     position:absolute;
+     color:black;
+     background-color: white;
+     padding:0.5rem 2.5rem;
+     top:50%;
+     left:50%;
+     transform: translateX(-50%) translateY(-50%);
+     font-size:3.5rem;
+ }
+ 
+ body{
+     font-family: "Poppins", sans-serif;
+ }
+ 
+ 
+ 
+ </style>
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <img src="background.png" class="background">
+            <img src="foreground.png" class="foreground">
+            <h1>ADVENTURE</h1>
+        </div>
+
+        <section>
+
+            <h2 class="secheading">Adventure Time!</h2>
+            <p class="text">
+                Adventure is a thrilling journey that takes you out of your comfort zone and into the unknown. It begins with a spark of curiosity, leading to explorations of uncharted territories, whether they are physical landscapes or new experiences. Adventures often involve overcoming obstacles and facing fears, pushing boundaries, and discovering new aspects of oneself.
+                <br><br>
+                They bring a sense of excitement and unpredictability, making each moment memorable. Along the way, you might meet new people, learn valuable lessons, and create unforgettable memories. Adventure is not just about the destination but the journey itself, filled with growth, challenge, and exhilaration.
+            </p>
+
+            <div class="bg bg1">
+                <h2 class="desc">BIKING</h2>
+            </div>
+            <p class="text">
+                Biking offers a unique blend of freedom and exercise, making it a popular choice for both commuting and recreation. The rhythmic cadence of pedaling, coupled with the wind against your face, creates a sense of liberation that's hard to match. Many find that biking through city streets or rural trails provides not just a workout, but also a refreshing mental break from daily routines. Cycling is also an eco-friendly mode of transport, reducing reliance on cars and cutting down on emissions. With the right bike, you can tackle various terrains and distances, from smooth urban roads to rugged mountain paths.
+                <br><br>
+                Transitioning from a commute to leisure, biking can be tailored to fit different needs. It can be a peaceful solo journey or a social activity shared with friends. Whether you’re exploring new routes or simply enjoying a leisurely ride, the benefits extend beyond physical health. Embracing biking as a regular activity can lead to a more balanced lifestyle and a greater connection with your surroundings.
+            </p>
+
+            <div class="bg bg2">
+                <h2 class="desc">PARA-GLIDING</h2>
+            </div>
+            <p class="text">
+                Paragliding offers an exhilarating experience that combines adventure with a profound sense of freedom. As you take off from a high launch point, the sensation of soaring through the sky provides an unmatched thrill. The gentle glide and panoramic views of the landscape below create a feeling of serene detachment from everyday life. Paragliding also allows you to appreciate the beauty of nature from a unique vantage point, making each flight a memorable journey. The sport requires a blend of skill and courage, as pilots navigate varying wind conditions and manage their equipment with precision.
+                <br><br>
+                For many, paragliding becomes a passion, blending physical excitement with mental calm. Whether you're gliding over mountains, valleys, or coastal cliffs, each flight offers a new perspective and challenge. Safety is paramount, and proper training is essential to enjoy this sport responsibly. Embracing the adventure of paragliding can lead to unforgettable experiences and a deeper appreciation for the natural world.
+            </p>
+
+            <div class="bg bg3">
+                <h2 class="desc">SURFING</h2>
+            </div>
+            <p class="text">
+                Surfing is a dynamic sport that captures the essence of freedom and adventure. The thrill of paddling into a wave and riding its powerful crest is an exhilarating experience. Each wave offers a unique challenge, requiring balance, skill, and timing. As you glide along the face of the wave, the rush of adrenaline is matched by a profound connection with the ocean. Surfing not only provides physical exercise but also fosters a deep sense of tranquility and exhilaration.
+                <br><br>
+                Beyond the technical aspects, surfing is also a lifestyle that embraces the rhythm of the sea and the beauty of coastal environments. It promotes mindfulness and resilience as surfers learn to adapt to ever-changing conditions. Whether you're a beginner or an experienced rider, surfing offers endless opportunities for personal growth and enjoyment.
+                <br><br>
+                <br><br>
+            </p>
+        </section>
+    </div>
+</body>
+</html>
